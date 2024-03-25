@@ -56,7 +56,7 @@ OBS.:  A tabela `PEDIDO` deveria conter uma coluna de `id_vendedor` ao invés da
 
 1- Uma troca de vendedor (Ex: um vendedor foi desligado/está inativo) não deveria exigir qualquer alteração na tabela `CLIENTES`;
 
-2- Queries simples ganham uma complexidade maior (Ex: faturamento por vendedor exige um JOIN) algo que não parece ser desejavel;
+2- Queries simples ganham uma complexidade maior, faturamento por vendedor exige um JOIN, algo que não parece ser desejavel;
 
 # Consultas de Junção
 
